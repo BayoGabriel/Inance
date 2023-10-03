@@ -1,0 +1,41 @@
+*{
+    font-family: "lato" sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    background-color: transparent;
+}
+#navbarr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#navbarr li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbarr li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+#navbarr li a:hover,
+#navbarr li a.active {
+    color: #007bff;
+}
+.mobile {
+    color: white;
+}
