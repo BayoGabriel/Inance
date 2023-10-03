@@ -15,10 +15,6 @@ const Navbar = () => {
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-        <div className="mobile">
-            <i class="fas fa-bars"></i>
-            <i className='fas fa-times'></i>
-        </div>
        </nav>
     </div>
   )
